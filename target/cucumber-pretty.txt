@@ -1,0 +1,13 @@
+Feature: Test smoke on Connectiverx
+
+  @tag1
+  Scenario: Smoke Test on Connectiverx [90m# SmokeTest.feature:4[0m
+    [32mGiven [0m[32mI open Chrome Browser[0m        [90m# SmokeTest.i_open_Chrome_Browser()[0m
+    [32mWhen [0m[32mType Connectiverx web address[0m [90m# SmokeTest.type_Connectiverx_web_address()[0m
+    [31mAnd [0m[31mverify learn more button[0m       [90m# SmokeTest.verify_learn_more_button()[0m
+      [31mjava.lang.NullPointerException
+      	at stEpdEfination.SmokeTest.verify_learn_more_button(SmokeTest.java:40)
+      	at ✽.And verify learn more button(SmokeTest.feature:7)
+      [0m
+    [36mAnd [0m[36mverify the title of the page[0m   [90m# SmokeTest.verify_the_title_of_the_page()[0m
+    [36mThen [0m[36mI close the browser[0m           [90m# SmokeTest.i_close_the_browser()[0m

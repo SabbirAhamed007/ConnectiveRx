@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Suite.1]">
+  <test name="Test.1(failed)">
+    <classes>
+      <class name="testng.VerifyTitle">
+        <methods>
+          <include name="verifyApplicationTitle"/>
+        </methods>
+      </class> <!-- testng.VerifyTitle -->
+    </classes>
+  </test> <!-- Test.1(failed) -->
+</suite> <!-- Failed suite [Suite.1] -->

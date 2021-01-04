@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="18.503718">
+<testcase classname="Test smoke on Connectiverx" name="Smoke Test on Connectiverx" time="18.503718">
+<failure message="java.lang.NullPointerException&#13;&#10;&#9;at stEpdEfination.SmokeTest.verify_learn_more_button(SmokeTest.java:40)&#13;&#10;&#9;at ✽.And verify learn more button(SmokeTest.feature:7)&#13;&#10;"><![CDATA[Given I open Chrome Browser.................................................passed
+When Type Connectiverx web address..........................................passed
+And verify learn more button................................................failed
+And verify the title of the page............................................skipped
+Then I close the browser....................................................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at stEpdEfination.SmokeTest.verify_learn_more_button(SmokeTest.java:40)
+	at ✽.And verify learn more button(SmokeTest.feature:7)
+]]></failure>
+</testcase>
+</testsuite>

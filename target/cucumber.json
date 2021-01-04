@@ -1,0 +1,87 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Smoke Test on Connectiverx",
+        "description": "",
+        "id": "test-smoke-on-connectiverx;smoke-test-on-connectiverx",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9609374600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I open Chrome Browser",
+            "match": {
+              "location": "SmokeTest.i_open_Chrome_Browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1594647800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Type Connectiverx web address",
+            "match": {
+              "location": "SmokeTest.type_Connectiverx_web_address()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7299695900,
+              "error_message": "java.lang.NullPointerException\r\n\tat stEpdEfination.SmokeTest.verify_learn_more_button(SmokeTest.java:40)\r\n\tat ✽.And verify learn more button(SmokeTest.feature:7)\r\n",
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "verify learn more button",
+            "match": {
+              "location": "SmokeTest.verify_learn_more_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "verify the title of the page",
+            "match": {
+              "location": "SmokeTest.verify_the_title_of_the_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "I close the browser",
+            "match": {
+              "location": "SmokeTest.i_close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "Test smoke on Connectiverx",
+    "description": "",
+    "id": "test-smoke-on-connectiverx",
+    "keyword": "Feature",
+    "uri": "SmokeTest.feature"
+  }
+]

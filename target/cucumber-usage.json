@@ -1,0 +1,38 @@
+[
+  {
+    "source": "^I open Chrome Browser$",
+    "steps": [
+      {
+        "name": "I open Chrome Browser",
+        "aggregatedDurations": {
+          "average": 9.6093746,
+          "median": 9.6093746
+        },
+        "durations": [
+          {
+            "duration": 9.6093746,
+            "location": "SmokeTest.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Type Connectiverx web address$",
+    "steps": [
+      {
+        "name": "Type Connectiverx web address",
+        "aggregatedDurations": {
+          "average": 1.5946478,
+          "median": 1.5946478
+        },
+        "durations": [
+          {
+            "duration": 1.5946478,
+            "location": "SmokeTest.feature:6"
+          }
+        ]
+      }
+    ]
+  }
+]
